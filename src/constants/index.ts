@@ -10,10 +10,10 @@ import type {
 import {
   mobile,
   backend,
-  creator,
+
   web,
   javascript,
-  typescript,
+
   html,
   css,
   reactjs,
@@ -22,8 +22,7 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
+  figma, 
   meta,
   starbucks,
   tesla,
@@ -31,8 +30,9 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
+
+
 
 export const navLinks: TNavLink[] = [
   {
@@ -55,17 +55,13 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  }
 ];
 
 const technologies: TTechnology[] = [
@@ -80,10 +76,6 @@ const technologies: TTechnology[] = [
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
   },
   {
     name: "React JS",
@@ -105,10 +97,7 @@ const technologies: TTechnology[] = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+ 
   {
     name: "git",
     icon: git,
@@ -117,10 +106,7 @@ const technologies: TTechnology[] = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  
 ];
 
 const experiences: TExperience[] = [
@@ -207,9 +193,9 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Weather App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Designed and developed a dynamic Weather Web App using modern web technologies. The app provides real-time weather updates and forecasts by integrating with a weather API.",
     tags: [
       {
         name: "react",
