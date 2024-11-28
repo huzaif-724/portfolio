@@ -32,6 +32,9 @@ import {
   tripguide,
 } from "../assets";
 
+import cpp from "../assets/tech/cpp.png";
+
+
 
 
 export const navLinks: TNavLink[] = [
@@ -39,10 +42,10 @@ export const navLinks: TNavLink[] = [
     id: "about",
     title: "About",
   },
-  {
-    id: "work",
-    title: "Work",
-  },
+  // {
+  //   id: "works",
+  //   title: "Works",
+  // },
   {
     id: "contact",
     title: "Contact",
@@ -105,6 +108,10 @@ const technologies: TTechnology[] = [
   {
     name: "figma",
     icon: figma,
+  },
+  {
+    name: "cpp",
+    icon: cpp,
   },
   
 ];
@@ -202,7 +209,7 @@ const projects: TProject[] = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "javaScript",
         color: "green-text-gradient",
       },
       {
@@ -211,40 +218,40 @@ const projects: TProject[] = [
       },
     ],
     image: carrent,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/huzaif-724/Weather-web-app",
   },
   {
-    name: "Job IT",
+    name: "TextMate",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed a full-stack web application that allows users to manage personal books and notes, with secure user authentication, CRUD operations, and a responsive user interface.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "node",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/huzaif-724/TextMate",
   },
   {
-    name: "Trip Guide",
+    name: "Amazon Clone",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a responsive e-commerce web application replicating core features of Amazon, including product browsing, search functionality, a dynamic shopping cart, and interactive user interface.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
@@ -253,7 +260,7 @@ const projects: TProject[] = [
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/huzaif-724/Amazon-Clone",
   },
 ];
 
