@@ -1,10 +1,13 @@
 {
+  "homepage": "https://huzaif-724.github.io/portfolio",
   "name": "threejs-3d-portfolio",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
