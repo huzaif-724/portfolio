@@ -1,10 +1,21 @@
+// {
+//   "compilerOptions": {
+//     "composite": true,
+//     "skipLibCheck": true,
+//     "module": "ESNext",
+//     "moduleResolution": "bundler",
+//     "allowSyntheticDefaultImports": true
+//   },
+//   "include": ["vite.config.ts"]
+// }
+
 {
   "compilerOptions": {
     "composite": true,
     "skipLibCheck": true,
-    "module": "ESNext",
-    "moduleResolution": "bundler",
-    "allowSyntheticDefaultImports": true
+    "module": "ESNext", // ESNext ensures compatibility with modern modules
+    "moduleResolution": "node", // Use 'node' for reliable module resolution
+    "allowSyntheticDefaultImports": true // Allows default imports from CommonJS modules
   },
   "include": ["vite.config.ts"]
 }
